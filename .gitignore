@@ -93,3 +93,4 @@ crashlytics-build.properties
 Thumbs.db
 Desktop.ini
 .DS_Store
+.vsconfig
