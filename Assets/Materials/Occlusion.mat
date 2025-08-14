@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: groud
-  m_Shader: {fileID: -6465566751694194690, guid: 58f77a5b5b5fdf0439bb3d7045541cbc, type: 3}
+  m_Name: Occlusion
+  m_Shader: {fileID: -6465566751694194690, guid: 8d235101fb2e8314a9d00555624fcfd4, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,10 +19,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _AlbedoTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -36,7 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Gloss: 0.5
-    - _Metallic: 0
-    m_Colors: []
+    - Vector1_b0acc8f9aad246e1875888ca6e1809c8: 1
+    m_Colors:
+    - Color_dde9b8020ab547668781483dfd72f68d: {r: 0.41233528, g: 0.7735849, b: 0.7201907, a: 1}
   m_BuildTextureStacks: []
