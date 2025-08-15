@@ -56,7 +56,8 @@ public class PlayerController : MonoBehaviour
         agent.isStopped = false;
 
         transform.LookAt(attackTarget.transform);
-
+        
+        //TODO£ºÐÞ¸Ä¹¥»÷·¶Î§²ÎÊý
         while (Vector3.Distance(attackTarget.transform.position, transform.position) > 1)
         {
             agent.destination = attackTarget.transform.position;
